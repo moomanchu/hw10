@@ -18,17 +18,22 @@ public class starter{
 		return b;
 	}
 	
-	public static boolean isntprime(int a){//try and do it with recursion
-		if(a
-		return ;
-	}
+	// public static boolean recprime(int a){//try and do it with recursion
+		// if(a)
+		// return ;
+	// }
 	
 	public static void main(String args[]) {
 		EasyReader e = new EasyReader();
 		System.out.print("Enter a number from 1 to 1000: ");
 		int i = e.readInt();
-		System.out.println(isprime(i));
-		//System.out.println(10%2);
+		//System.out.println(isprime(i));
+		if(isprime(i) == true){
+			System.out.println(i+" is a prime number");
+		}
+		else{
+			System.out.println(i+" isnt a prime number");
+		}
 	}
 	
 }
